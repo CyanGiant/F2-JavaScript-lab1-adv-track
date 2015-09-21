@@ -44,7 +44,7 @@ function assert(expression, failureMessage) {
 */
 
 assert(1 === 1, '1 equals 1 - this assert will pass.');
-assert(1 === 1, 'this is an example of a failing assertion. 1 does not equal 2.');
+assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.');
 
 /* ===========================================================================
 ------------------Assertions (8 points total)---------------------------------
@@ -86,7 +86,6 @@ for (var i = 0; i < sentence1Split.length; i++) {
   sentence1Split [i] = 'chirp';
   var sentence1 = sentence1Split.join (' ') + '.';
 }
-
 
 // TODO: part #2: use a while or do-while loop to replace the words in sentence 2
 // with 'chirp' (10 points)
